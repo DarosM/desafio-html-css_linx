@@ -31,7 +31,29 @@ body {
   font-family: 'Open-Sans', sans-serif;
 }
 
+.rectangle9 {
 
+z-index: 1;
+position: absolute;
+width: 102px;
+height: 29px;
+background: #422755;
+border-radius: 0px 5px 5px 0px;
+
+}
+
+.prazocurto {
+position: absolute;
+width: 73px;
+height: 16px;
+padding: 5px 15px 5px 15px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+}
 
 /* Title */
 .title {
@@ -86,12 +108,25 @@ body {
 }
 
 .white_rectangle {
+  color: black;
   background-color: #ffffff;
   width: 276px;
   height: 34px;
   margin: 30px 20px 30px 10px;
   border-radius: 8px;
+  top: 0.1em;
+  left: -9em;
 
+}
+.white_rectangle-form {
+    color: black;
+    background-color: #ffffff;
+    width: 276px;
+    height: 34px;
+    margin: 30px 20px 30px 10px;
+    border-radius: 8px;
+    top: 2.1em;
+    left: -4em;
 }
 
 .white_rectangle font {
@@ -220,22 +255,59 @@ input {
   font-size: 17px;
 }
 
+.label {
+  text-align: left;
+  width: 98px;
+  height: 19px;
+  padding: 10px 0px 10px 0px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.prazo {
+  width: 193px;
+  height: 34px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
 .dropdown {
   overflow: hidden;
   float: right;
 }
 
-.dropdown .dropbtn {
-  font-size: 17px;
-  border: none;
-  outline: none;
+.dropbtn {
   color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+  position: absolute;
+  width: 79px;
+  height: 38px;
+  left: 30em;
+  top: 6em;
+  background: #6E4B87;
+  border-radius: 8px;
 }
 
+.dropbtn-form {
+  color: white;
+  position: absolute;
+  width: 91px;
+  height: 37px;
+  left: 61em;
+  top: 123em;
+  background: #6E4B87;
+  border-radius: 8px;
+}
+
+
+.dropdown .dropbtn {
+
+ background: #6E4B87;
+ border-radius: 8px;
+}
 
 .dropdown-content {
   display: none;
@@ -502,8 +574,19 @@ input {
       flex-wrap: wrap;
 }
 
+.text-form{
+  position: absolute;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 19px;
+  color: #6E4B87;
+  top: 88.5em;
 
+}
 .text-footer {
+  color: #ffffff;
   align-content: left;
   max-width: 100%;
   margin: 5px auto;
@@ -580,6 +663,5 @@ input {
     width: 100%;
   }
 }
-
 /* //Footer */
 /*# sourceMappingURL=style.css.map */
